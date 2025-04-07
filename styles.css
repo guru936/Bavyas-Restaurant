@@ -1,0 +1,84 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #2c1b14;
+  color: #f9e4c8;
+}
+
+header {
+  background-color: #1a0e08;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gold;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: gold;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #f9e4c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: gold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+}
+
+.btn {
+  background-color: gold;
+  color: #2c1b14;
+  padding: 0.8rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+form input, form button {
+  margin: 0.5rem;
+  padding: 0.7rem;
+  width: 80%;
+  max-width: 400px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1a0e08;
+  color: #f9e4c8;
+}
