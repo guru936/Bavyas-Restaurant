@@ -4,38 +4,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Restaurant</title>
+  <title>Authentic Indian Fine Dining</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <div class="logo">Your Restaurant</div>
+    <div class="logo">Fine Dining</div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
         <li><a href="#menu">Menu</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#booking">Reservations</a></li>
+        <li><a href="#reserve">Reserve a Table</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero-image">
-    <img src="homepage.png" alt="Fine Dining" />
+  <section class="hero">
+    <img src="homepage.png" alt="Authentic Indian Food" />
+    <div class="overlay-text">
+      <h1>Where Tradition Meets Taste</h1>
+      <p>Experience our chef's finest creations in every bite.</p>
+    </div>
   </section>
 
   <section id="menu" class="content">
-    <h2>Our Menu</h2>
-    <p>Coming soon: A rich selection of Indian dishes.</p>
+    <h2>Our Signature Dishes</h2>
+    <div class="menu-gallery">
+      <img src="veg_thali.png" alt="Veg Thali" />
+      <img src="veg_appetizers.png" alt="Veg Appetizers" />
+      <img src="south_indian_appetizers.png" alt="South Indian Appetizers" />
+    </div>
   </section>
 
-  <section id="gallery" class="content">
-    <h2>Gallery</h2>
-    <p>Coming soon: A visual tour of our ambiance and cuisine.</p>
-  </section>
-
-  <section id="booking" class="content">
+  <section id="reserve" class="content">
     <h2>Reserve a Table</h2>
     <form>
       <input type="text" placeholder="Your Name" required><br>
@@ -47,8 +48,15 @@
     </form>
   </section>
 
+  <section id="contact" class="content">
+    <h2>Contact Us</h2>
+    <p>Email: info@finediningindian.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Location: 123 Grand Street, Culinary City</p>
+  </section>
+
   <footer>
-    <p>© 2025 Your Restaurant. All Rights Reserved.</p>
+    <p>© 2025 Fine Dining. All Rights Reserved.</p>
   </footer>
 </body>
 </html>

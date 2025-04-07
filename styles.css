@@ -17,7 +17,7 @@ header {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: gold;
   font-weight: bold;
 }
@@ -41,27 +41,52 @@ nav a:hover {
   color: gold;
 }
 
-.hero-image img {
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.btn {
-  background-color: gold;
-  color: #2c1b14;
-  padding: 0.7rem 1.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
+.overlay-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: gold;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+}
+
+.overlay-text h1 {
+  font-size: 2.5rem;
+}
+
+.overlay-text p {
+  font-size: 1.2rem;
 }
 
 .content {
   padding: 3rem 1rem;
   text-align: center;
+}
+
+.menu-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.menu-gallery img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 form input, form button {
@@ -72,6 +97,16 @@ form input, form button {
   display: block;
 }
 
+.btn {
+  background-color: gold;
+  color: #2c1b14;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -80,6 +115,18 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .overlay-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .overlay-text p {
+    font-size: 1rem;
+  }
+
+  .menu-gallery img {
+    width: 90%;
+  }
+
   nav ul {
     flex-direction: column;
     align-items: center;
